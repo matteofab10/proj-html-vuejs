@@ -16,14 +16,20 @@
 
       <div class="mf-food-bottom">
         <div class="mf-food-bottom-box container">
-          <h2>1</h2>
-          <h2>2</h2>
-          <h3>3</h3>
+          <div class="mf-food-bottom-card">
+            <img src="../assets/img/sushi-1.png" alt="sushi-1-png">
+          </div>
+          <div class="mf-food-bottom-card">
+            <img src="../assets/img/sushi-2.png" alt="sushi-2-png">
+          </div>
+          <div class="mf-food-bottom-card">
+            <img src="../assets/img/sushi-3.png" alt="sushi-3-png">
+          </div>
         </div>
       </div>
 
     </section>
-    <section class="section-2">
+    <!-- <section class="section-2">
       SECTION 2
     </section>
     <section class="section-3">
@@ -43,7 +49,7 @@
     </section>
     <section class="section-8">
       SECTION 8
-    </section>
+    </section> -->
   </main>
 </template>
 
