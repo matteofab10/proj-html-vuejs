@@ -1,7 +1,27 @@
 <template>
   <main>
-    <section class="section-1">
-      SECTION 1
+    <section class="mf-food">
+
+      <div class="mf-food-top container ps-0 pe-0">
+        <div class="mf-food-top-left">
+          <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi atque soluta consectetur nobis amet similique omnis dolorum aliquam error tempore, id expedita quas repellendus consequatur assumenda obcaecati! Sunt, possimus ea!</h5>
+          <h2>Food is our common ground, a universal experience.</h2>
+          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illo molestiae laudantium eius quae suscipit tempora. Excepturi doloremque tempora quia. Nisi, vero amet? Aut impedit, doloribus beatae atque distinctio quis?</h5>
+          <img src="../assets/img/signature.jpg" alt="signature-image">
+        </div>
+        <div class="mf-food-top-right">
+          <h6>california rolls - $22</h6>
+        </div>
+      </div>
+
+      <div class="mf-food-bottom">
+        <div class="mf-food-bottom-box container">
+          <h2>1</h2>
+          <h2>2</h2>
+          <h3>3</h3>
+        </div>
+      </div>
+
     </section>
     <section class="section-2">
       SECTION 2
@@ -35,10 +55,38 @@ export default {
 
 <style lang="scss">
 
-.section-1 {
+.mf-food {
   width: 100%;
   height: 900px;
   background-color: saddlebrown;
+  .mf-food-top {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    .mf-food-top-left {
+      width: 50%;
+      background-color: teal;
+      img {
+        width: 30%;
+      }
+    }
+    .mf-food-top-right {
+      width: 50%;
+      background-color: yellowgreen;
+      background-image: url('../assets/img/info22x.jpg');
+      background-size: cover;
+    }
+  }
+  .mf-food-bottom {
+    height: 300px;
+    width: 100%;
+    background-color: tan;
+    .mf-food-bottom-box {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }
 
 .section-2 {
