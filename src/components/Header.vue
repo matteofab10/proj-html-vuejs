@@ -62,7 +62,6 @@ header {
         margin-bottom: 25px;
       }
       h1 {
-        
         text-transform: uppercase;
         color: white;
         font-size: 60px;

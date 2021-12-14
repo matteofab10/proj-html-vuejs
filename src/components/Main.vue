@@ -38,27 +38,22 @@
       </div>
 
     </section>
-    <!-- <section class="section-2">
-      SECTION 2
+    <section class="mf-table-in-town">
+      <div class="mf-table-left">
+        <img src="../assets/img/slider32x.jpg" alt="slider32-image">
+      </div>
+      <div class="mf-table-right">
+        <div class="mf-card">
+          <h6>fine dining experience</h6>
+          <h1>the best table in town</h1>
+          <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde nam ab commodi velit sequi. Sit harum sed in, soluta.</h5>
+          <button>explore the menu</button>
+        </div>
+      </div>
     </section>
-    <section class="section-3">
-      SECTION 3
+    <section class="mf-critics">
+
     </section>
-    <section class="section-4">
-      SECTION 4
-    </section>
-    <section class="section-5">
-      SECTION 5
-    </section>
-    <section class="section-6">
-      SECTION 6
-    </section>
-    <section class="section-7">
-      SECTION 7
-    </section>
-    <section class="section-8">
-      SECTION 8
-    </section> -->
   </main>
 </template>
 
@@ -75,8 +70,8 @@ export default {
   background-color: white;
   .mf-food-top {
     display: flex;
-    height: 600px;
     width: 100%;
+    padding-top: 100px;
     .mf-food-top-left {
       width: 50%;
       background-color: white;
@@ -150,13 +145,56 @@ export default {
   }
 }
 
-.section-2 {
+.mf-table-in-town {
+  display: flex;
   width: 100%;
-  height: 600px;
-  background-color: blue;
+  height: 700px;
+  .mf-table-left {
+    width: 60%;
+    img {
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+    }
+  }
+  .mf-table-right {
+    width: 40%;
+    background-color: black;
+    .mf-card {
+      width: 80%;
+      margin: 0 auto;
+      padding: 150px 0 150px 0;
+      h6 {
+        text-transform: uppercase;
+        color: #bcbcbc;
+        margin-bottom: 25px;
+      }
+      h1 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 25px;
+      }
+      h5 {
+        color: #bcbcbc;
+        padding-right: 20%;
+        margin-bottom: 40px;
+        line-height: 25px;
+      }
+      button {
+        background-color: black;
+        color: #bcbcbc;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 10px 20px 10px 20px;
+        border-color: #bcbcbc;
+      }
+    }
+  }
 }
 
-.section-3 {
+.mf-critics {
   width: 100%;
   height: 900px;
   background-color: saddlebrown;
