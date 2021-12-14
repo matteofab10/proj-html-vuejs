@@ -13,14 +13,11 @@
       <div class="mf-header-background">
         <nav>
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Culinary History</a></li>
-            <li><a href="">Our Team</a></li>
-            <li><a href="">Our Menu</a></li>
-            <li><a href="">Takeout</a></li>
-            <li><a href="">Bulletin</a></li>
-            <li><a href="">Reservation</a></li>
-            <li><a href="">Carrello</a></li>
+            <li v-for="(link, index) in NavData" :key="index">
+              <a :href="link.link">
+                {{link.title}}
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -29,8 +26,16 @@
 </template>
 
 <script>
+import NavData from '../assets/data/NavData.js';
+
+
 export default {
-  name: 'Header'
+  name: 'Header',
+  data(){
+    return {
+      NavData,
+    }
+  }
 }
 </script>
 
