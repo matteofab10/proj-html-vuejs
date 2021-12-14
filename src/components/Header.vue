@@ -58,7 +58,7 @@ header {
       margin-left: 22%;
       h6 {
         text-transform: uppercase;
-        color: gray;
+        color: #bcbcbc;
         margin-bottom: 25px;
       }
       h1 {
@@ -70,17 +70,18 @@ header {
         margin-bottom: 25px;
       }
       h5 {
-        color: gray;
+        color: #bcbcbc;
         padding-right: 20%;
         margin-bottom: 40px;
+        line-height: 25px;
       }
       button {
         background-color: black;
-        color: gray;
+        color: #bcbcbc;
         text-transform: uppercase;
         font-size: 10px;
         padding: 10px 20px 10px 20px;
-        border-color: gray;
+        border-color: #bcbcbc;
       }
     }
   }
@@ -104,7 +105,7 @@ header {
         margin: 0 30px;
         a {
           text-decoration: none;
-          color: grey;
+          color: #bcbcbc;
         }
       }
       a:hover {
