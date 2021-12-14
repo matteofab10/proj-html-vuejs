@@ -27,8 +27,8 @@ export default [
     title: 'Reservation',
     link: '#'
   },
-  {
-    title: 'Carrello',
-    link: '#'
-  }
+  // {
+  //   title: '',
+  //   link: '#'
+  // }
 ]

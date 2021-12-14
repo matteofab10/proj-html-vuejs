@@ -5,7 +5,7 @@
       <div class="mf-card">
         <h6>the best table in town</h6>
         <h1>fine dining experience</h1>
-        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde nam ab commodi velit sequi. Sit harum sed in, soluta adipisci iusto dolores vitae nostrum incidunt neque dolor dolore nam.</h5>
+        <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde nam ab commodi velit sequi. Sit harum sed in, soluta.</h5>
         <button>Explore The Menu</button>
       </div>
     </div>
@@ -18,6 +18,7 @@
                 {{link.title}}
               </a>
             </li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
           </ul>
         </nav>
       </div>
@@ -50,6 +51,38 @@ header {
   .mf-head-left {
     width: 40%;
     background-color: black;
+    img {
+      margin: 20px 0 100px 100px;
+    }
+    .mf-card {
+      margin-left: 22%;
+      h6 {
+        text-transform: uppercase;
+        color: gray;
+        margin-bottom: 25px;
+      }
+      h1 {
+        
+        text-transform: uppercase;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 25px;
+      }
+      h5 {
+        color: gray;
+        padding-right: 20%;
+        margin-bottom: 40px;
+      }
+      button {
+        background-color: black;
+        color: gray;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 10px 20px 10px 20px;
+        border-color: gray;
+      }
+    }
   }
 
   .mf-head-right {
@@ -57,8 +90,10 @@ header {
     .mf-header-background {
       background-image: url('../assets/img/slider52x.jpg');
       width: 100%;
-      height: 700px;
+      height: 100%;
       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
     }
     ul {
       display: flex;
@@ -66,8 +101,7 @@ header {
       justify-content: center;
       li {
         list-style: none;
-        margin: 0 auto;
-        font-weight: 700;
+        margin: 0 30px;
         a {
           text-decoration: none;
           color: grey;
@@ -76,6 +110,9 @@ header {
       a:hover {
         color: white;
       }
+      // a:active {
+      //   color: white;
+      // }
     }
   }
 }
