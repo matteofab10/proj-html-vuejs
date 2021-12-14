@@ -137,6 +137,23 @@
         </div>
       </div>
     </section>
+    <section class="mf-menu">
+      <div class="mf-menu-list-grey">
+        <h3>titolo lista</h3>
+        <h4>nome cibo <span>prezzo</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+      </div>
+      <div class="mf-menu-list-background">
+        <h3>titolo lista</h3>
+        <h4>nome cibo <span>prezzo</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+      </div>
+      <div class="mf-menu-list-grey">
+        <h3>titolo lista</h3>
+        <h4>nome cibo <span>prezzo</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -528,10 +545,41 @@ export default {
   }
 }
 
-.section-7 {
+.mf-menu {
   width: 100%;
-  height: 800px;
   background-color: seagreen;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  .mf-menu-list-grey, .mf-menu-list-background {
+    padding: 50px;
+    width: 33%;
+    h3 {
+      font-size: 40px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-bottom: 40px;
+    }
+    h4 {
+      font-size: 25px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-bottom: 15px;
+    }
+    h5 {
+      font-size: 15px;
+    }
+    span {
+      float: right;
+      font-size: 10px;
+    }
+  }
+  .mf-menu-list-grey {
+    background-color: #e8e8e8;
+  }
+  .mf-menu-list-background {
+    background-color: red;
+  }
 }
 
 .section-8 {
