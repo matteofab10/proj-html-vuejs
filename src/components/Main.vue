@@ -124,6 +124,19 @@
         </div>
       </div>
     </section>
+    <section class="mf-takeout">
+      <div class="mf-takeout-left">
+        <img src="../assets/img/slider72x-scaled.jpg" alt="slider72-image">
+      </div>
+      <div class="mf-takeout-right">
+        <div class="mf-card">
+          <h6>enjoy your meal at home</h6>
+          <h1>takeout now available</h1>
+          <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde nam ab commodi velit sequi. Sit harum sed in, soluta.</h5>
+          <button><i class="fas fa-car"></i> explore the menu</button>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -463,10 +476,56 @@ export default {
   }
 }
 
-.section-6 {
+.mf-takeout {
+  display: flex;
   width: 100%;
-  height: 600px;
-  background-color: salmon;
+  height: 700px;
+  .mf-takeout-left {
+    width: 60%;
+    img {
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+    }
+  }
+  .mf-takeout-right {
+    width: 40%;
+    background-color: black;
+    .mf-card {
+      width: 80%;
+      margin: 0 auto;
+      padding: 150px 0 150px 0;
+      h6 {
+        text-transform: uppercase;
+        color: #bcbcbc;
+        margin-bottom: 25px;
+      }
+      h1 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 25px;
+      }
+      h5 {
+        color: #bcbcbc;
+        padding-right: 20%;
+        margin-bottom: 40px;
+        line-height: 25px;
+      }
+      button {
+        background-color: black;
+        color: #bcbcbc;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding: 10px 20px 10px 20px;
+        border-color: #bcbcbc;
+        i {
+          padding-right: 5px;
+        }
+      }
+    }
+  }
 }
 
 .section-7 {
