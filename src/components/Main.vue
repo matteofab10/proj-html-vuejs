@@ -51,8 +51,58 @@
         </div>
       </div>
     </section>
-    <section class="mf-critics">
-
+    <section class="mf-critics container ps-0 pe-0">
+      <h3>What critics are saying about us</h3>
+      <div class="mf-critics-top">
+        <div class="mf-critics-top-left">
+          <img src="../assets/img/blog72x.jpg" alt="blog72-image">
+        </div>
+        <div class="mf-critics-top-right">
+          <div class="mf-card">
+            <h6>meggy stewart</h6>
+            <h4>new york times</h4>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error fugiat distinctio quaerat quisquam esse ducimus culpa dolorum enim</h5>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error fugiat distinctio quaerat quisquam esse ducimus</h5>
+            <button>read full article</button>
+          </div>
+        </div>
+      </div>
+      <div class="mf-critics-bottom">
+        <div class="mf-critics-bottom-left">
+          <div class="mf-card">
+            <h6>mary maxey</h6>
+            <h4>the guardian</h4>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error fugiat distinctio quaerat quisquam esse ducimus culpa dolorum enim</h5>
+            <button>read full article</button>
+          </div>
+        </div>
+        <div class="mf-critics-bottom-right">
+          <div class="mf-card">
+            <h6>patrick monroe</h6>
+            <h4>globe and mail</h4>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error fugiat distinctio quaerat quisquam esse ducimus culpa dolorum enim</h5>
+            <button>read full article</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mf-kung">
+      <h5>kung pao chicken - $32</h5>
     </section>
   </main>
 </template>
@@ -196,14 +246,167 @@ export default {
 
 .mf-critics {
   width: 100%;
-  height: 900px;
-  background-color: saddlebrown;
+  background-color: white;
+  padding-top: 100px;
+  h3 {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    padding-bottom: 50px;
+  }
+  .mf-critics-top {
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+    .mf-critics-top-left {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    .mf-critics-top-right {
+      width: 50%;
+      background-color: black;
+      .mf-card {
+        width: 80%;
+        margin: 0 auto;
+        padding: 150px 0 150px 0;
+        h6 {
+          text-transform: uppercase;
+          color: #bcbcbc;
+          margin-bottom: 25px;
+        }
+        h4 {
+          text-transform: uppercase;
+          color: white;
+          font-size: 35px;
+          font-weight: bold;
+          margin-bottom: 25px;
+        }
+        i {
+          color: white;
+          margin-bottom: 25px;
+        }
+        h5 {
+          color: #bcbcbc;
+          padding-right: 20%;
+          margin-bottom: 40px;
+          line-height: 25px;
+        }
+        button {
+          background-color: black;
+          color: #bcbcbc;
+          text-transform: uppercase;
+          font-size: 10px;
+          padding: 10px 20px 10px 20px;
+          border-color: #bcbcbc;
+        }
+      }
+    }
+  }
+  .mf-critics-bottom {
+    display: flex;
+    width: 100%;
+    padding-bottom: 70px;
+    .mf-critics-bottom-left {
+      width: 50%;
+      background-image: url('../assets/img/info52x.jpg');
+      background-size: cover;
+      background-position: 50% 50%;
+      margin-right: 40px;
+      .mf-card {
+        width: 80%;
+        margin: 0 auto;
+        padding: 150px 0 150px 0;
+        h6 {
+          text-transform: uppercase;
+          color: #bcbcbc;
+          margin-bottom: 25px;
+        }
+        h4 {
+          text-transform: uppercase;
+          color: white;
+          font-size: 35px;
+          font-weight: bold;
+          margin-bottom: 25px;
+        }
+        i {
+          color: white;
+          margin-bottom: 25px;
+        }
+        h5 {
+          color: #bcbcbc;
+          padding-right: 20%;
+          margin-bottom: 40px;
+          line-height: 25px;
+        }
+        button {
+          background-color: black;
+          color: #bcbcbc;
+          text-transform: uppercase;
+          font-size: 10px;
+          padding: 10px 20px 10px 20px;
+          border-color: #bcbcbc;
+        }
+      }
+    }
+    .mf-critics-bottom-right {
+      width: 50%;
+      background-image: url('../assets/img/info12x.jpg');
+      background-size: cover;
+      background-position: 50% 50%;
+      .mf-card {
+        width: 80%;
+        margin: 0 auto;
+        padding: 150px 0 150px 0;
+        h6 {
+          text-transform: uppercase;
+          color: #bcbcbc;
+          margin-bottom: 25px;
+        }
+        h4 {
+          text-transform: uppercase;
+          color: white;
+          font-size: 35px;
+          font-weight: bold;
+          margin-bottom: 25px;
+        }
+        i {
+          color: white;
+          margin-bottom: 25px;
+        }
+        h5 {
+          color: #bcbcbc;
+          padding-right: 20%;
+          margin-bottom: 40px;
+          line-height: 25px;
+        }
+        button {
+          background-color: black;
+          color: #bcbcbc;
+          text-transform: uppercase;
+          font-size: 10px;
+          padding: 10px 20px 10px 20px;
+          border-color: #bcbcbc;
+        }
+      }
+    }
+  }
 }
 
-.section-4 {
+.mf-kung {
   width: 100%;
-  height: 450px;
-  background-color: violet;
+  height: 500px;
+  background-image: url('../assets/img/page52x.jpg');
+  background-size: cover;
+  h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #bcbcbc;
+    text-align: center;
+    padding-top: 24%;
+    font-weight: bold;
+  }
 }
 
 .section-5 {
