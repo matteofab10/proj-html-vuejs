@@ -104,6 +104,26 @@
     <section class="mf-kung">
       <h5>kung pao chicken - $32</h5>
     </section>
+    <section class="mf-latest-news container ps-0 pe-0">
+      <h3>What critics are saying about us</h3>
+      <div class="mf-news-box">
+        <div class="mf-news-card">
+          <img src="../assets/img/blog92x.jpg" alt="blog92-image">
+          <h4>the best coffee in town</h4>
+          <h6>By admin | January 7th,2020 | Categories: News</h6>
+        </div>
+        <div class="mf-news-card">
+          <img src="../assets/img/blog72x.jpg" alt="blog72-image">
+          <h4>discover our new menu</h4>
+          <h6>By admin | January 7th,2020 | Categories: News</h6>
+        </div>
+        <div class="mf-news-card">
+          <img src="../assets/img/blog82x.jpg" alt="blog82-image">
+          <h4>we now accept square</h4>
+          <h6>By admin | January 7th,2020 | Categories: News</h6>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -409,10 +429,38 @@ export default {
   }
 }
 
-.section-5 {
+.mf-latest-news {
   width: 100%;
-  height: 700px;
-  background-color: rosybrown;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  h3 {
+    text-align: center;
+    font-style: italic;
+    color: black;
+    padding-bottom: 50px;
+  }
+  .mf-news-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .mf-news-card {
+      width: 30%;
+      img {
+        width: 100%;
+        padding-bottom: 20px;
+      }
+      h4, h6 {
+        text-align: center;
+        padding: 0 20px;
+      }
+      h4 {
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
+      }
+    }
+  }
 }
 
 .section-6 {
