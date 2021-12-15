@@ -13,13 +13,15 @@
       <div class="mf-header-background">
         <nav>
           <ul>
-            <li v-for="(link, index) in navList" :key="index">
-
+            <li v-for="(link, index) in navList"
+            :key="index"
+            :class="{active : link.isActive}"
+            @click="link.isActive = !link.isActive">
               <a :href="link.link">
                 {{link.title}}
               </a>
             </li>
-            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
           </ul>
         </nav>
       </div>
@@ -99,17 +101,21 @@ header {
       li {
         list-style: none;
         margin: 0 30px;
+        &:hover a {
+          color: white;
+        }
+        &.active a {
+          color: white;
+        }
+        &.active,
+        &.hover {
+          color: white;
+        }
         a {
           text-decoration: none;
           color: #bcbcbc;
         }
       }
-      a:hover {
-        color: white;
-      }
-      // a:active {
-      //   color: white;
-      // }
     }
   }
 }

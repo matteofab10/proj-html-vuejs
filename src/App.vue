@@ -18,31 +18,38 @@ export default {
       navList: [
         {
           title: 'Home',
-          link: '#'
+          link: '#',
+          isActive: true
         },
         {
           title: 'Culinary History',
-          link: '#'
+          link: '#',
+          isActive: false
         },
         {
           title: 'Our Team',
-          link: '#'
+          link: '#',
+          isActive: false
         },
         {
           title: 'Our Menu',
-          link: '#'
+          link: '#',
+          isActive: false
         },
         {
           title: 'Takeout',
-          link: '#'
+          link: '#',
+          isActive: false
         },
         {
           title: 'Bulletin',
-          link: '#'
+          link: '#',
+          isActive: false
         },
         {
           title: 'Reservation',
-          link: '#'
+          link: '#',
+          isActive: false
         }
       ],
       creditsLinks: [
