@@ -45,6 +45,7 @@ export default {
 header {
   display: flex;
   width: 100%;
+  min-width: 700px;
   height: 700px;
   background-color: red;
   
