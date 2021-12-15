@@ -139,18 +139,36 @@
     </section>
     <section class="mf-menu">
       <div class="mf-menu-list-grey">
-        <h3>titolo lista</h3>
-        <h4>nome cibo <span>prezzo</span></h4>
+        <h3>hors d'oeuvres</h3>
+        <h4>ahi salmon nigiri <span>$48</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>umi masu salad <span>$21</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>temaki with crab <span>$32</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>california rolls <span>$22</span></h4>
         <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
       </div>
       <div class="mf-menu-list-background">
-        <h3>titolo lista</h3>
-        <h4>nome cibo <span>prezzo</span></h4>
+        <h3>main course</h3>
+        <h4>braised abalone <span>$52</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>twice cooked pork <span>$21</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>kung pao chicken <span>$32</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>char siu & sushis <span>$48</span></h4>
         <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
       </div>
       <div class="mf-menu-list-grey">
-        <h3>titolo lista</h3>
-        <h4>nome cibo <span>prezzo</span></h4>
+        <h3>hors d'oeuvres</h3>
+        <h4>ahi salmon nigiri <span>$48</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>umi masu salad <span>$21</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>temaki with crab <span>$32</span></h4>
+        <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
+        <h4>california rolls <span>$22</span></h4>
         <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
       </div>
     </section>
@@ -552,7 +570,7 @@ export default {
   justify-content: center;
   padding: 100px;
   .mf-menu-list-grey, .mf-menu-list-background {
-    padding: 50px;
+    padding: 100px;
     width: 33%;
     h3 {
       font-size: 40px;
@@ -567,7 +585,8 @@ export default {
       padding-bottom: 15px;
     }
     h5 {
-      font-size: 15px;
+      font-size: 17px;
+      padding-bottom: 30px;
     }
     span {
       float: right;
@@ -576,9 +595,20 @@ export default {
   }
   .mf-menu-list-grey {
     background-color: #e8e8e8;
+    margin-top: 60px;
+    
   }
   .mf-menu-list-background {
-    background-color: red;
+    background-image: url('../assets/img/misc22x.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-bottom: 60px;
+    h3, h4 {
+      color: white;
+    }
+    h5 {
+      color: #bcbcbc;
+    }
   }
 }
 
