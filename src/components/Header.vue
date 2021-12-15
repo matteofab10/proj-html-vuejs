@@ -14,7 +14,7 @@
         <nav>
           <ul>
             <li v-for="(link, index) in NavData" :key="index">
-              <a :href="link.link">
+              <a href="#">
                 {{link.title}}
               </a>
             </li>

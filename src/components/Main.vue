@@ -226,7 +226,6 @@ export default {
     }
     .mf-food-top-right {
       width: 50%;
-      background-color: yellowgreen;
       background-image: url('../assets/img/info22x.jpg');
       background-size: cover;
       background-repeat: no-repeat;
