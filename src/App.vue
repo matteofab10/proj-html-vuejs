@@ -2,7 +2,7 @@
   <div>
     <Header />
     <Main />
-    <Footer />
+    <Footer :creditsLinks="footerCreditsLinks"/>
   </div>
 </template>
 
@@ -13,6 +13,28 @@ import Footer from "./components/Footer.vue";
 
 export default {
   name: 'App',
+  data() {
+    return {
+      footerCreditsLinks: [
+        {
+          title: 'Copyright 2002 - 20019 Avada',
+          link: '#'
+        },
+        {
+          title: 'All Rights Reserver',
+          link: '#'
+        },
+        {
+          title: 'Powered by WordPress',
+          link: '#'
+        },
+        {
+          title: 'ThemeFusion',
+          link: '#'
+        },
+      ]
+    }
+  },
   components: {
     Header,
     Main,
