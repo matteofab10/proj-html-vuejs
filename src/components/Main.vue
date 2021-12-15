@@ -1,5 +1,6 @@
 <template>
   <main>
+    <!-- FIRST SECTION -->
     <section class="mf-food">
 
       <div class="mf-food-top container ps-0 pe-0">
@@ -38,6 +39,9 @@
       </div>
 
     </section>
+    <!-- / FIRST SECTION -->
+
+    <!-- SECOND SECTION -->
     <section class="mf-table-in-town">
       <div class="mf-table-left">
         <img src="../assets/img/slider32x.jpg" alt="slider32-image">
@@ -51,6 +55,9 @@
         </div>
       </div>
     </section>
+    <!-- / SECOND SECTION -->
+
+    <!-- THIRD SECTION -->
     <section class="mf-critics container ps-0 pe-0">
       <h3>What critics are saying about us</h3>
       <div class="mf-critics-top">
@@ -101,9 +108,15 @@
         </div>
       </div>
     </section>
+    <!-- / THIRD SECTION -->
+
+    <!-- FOURTH SECTION -->
     <section class="mf-kung">
       <h5>kung pao chicken - $32</h5>
     </section>
+    <!-- / FOURTH SECTION -->
+
+    <!-- FIFTH SECTION -->
     <section class="mf-latest-news container ps-0 pe-0">
       <h3>What critics are saying about us</h3>
       <div class="mf-news-box">
@@ -124,6 +137,9 @@
         </div>
       </div>
     </section>
+    <!-- / FIFTH SECTION -->
+
+    <!-- SIXTH SECTION -->
     <section class="mf-takeout">
       <div class="mf-takeout-left">
         <img src="../assets/img/slider72x-scaled.jpg" alt="slider72-image">
@@ -137,6 +153,9 @@
         </div>
       </div>
     </section>
+    <!-- / SIXTH SECTION -->
+
+    <!-- SEVENTH SECTION -->
     <section class="mf-menu">
       <div class="mf-menu-list-grey">
         <h3>hors d'oeuvres</h3>
@@ -172,6 +191,9 @@
         <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
       </div>
     </section>
+    <!-- / SEVENTH SECTION -->
+
+    <!-- EIGHTH SECTION -->
     <section class="mf-braised">
       <div class="mf-card-box">
         <div class="mf-card">
@@ -182,6 +204,7 @@
         </div>
       </div>
     </section>
+    <!-- / EIGHTH SECTION -->
   </main>
 </template>
 
@@ -193,6 +216,7 @@ export default {
 
 <style lang="scss">
 
+// FIRST SECTION
 .mf-food {
   width: 100%;
   background-color: white;
@@ -234,6 +258,7 @@ export default {
         text-align: center;
         color: #bcbcbc;
         text-transform: uppercase;
+        padding-top: 15px;
       }
     }
   }
@@ -271,7 +296,9 @@ export default {
     }
   }
 }
+// FIRST SECTION - end
 
+// SECOND SECTION
 .mf-table-in-town {
   display: flex;
   width: 100%;
@@ -320,7 +347,9 @@ export default {
     }
   }
 }
+// SECOND SECTION end
 
+// THIRD SECTION
 .mf-critics {
   width: 100%;
   background-color: white;
@@ -470,7 +499,9 @@ export default {
     }
   }
 }
+// THIRD SECTION end
 
+// FOURTH SECTION
 .mf-kung {
   width: 100%;
   height: 500px;
@@ -485,7 +516,9 @@ export default {
     font-weight: bold;
   }
 }
+// FOURTH SECTION end
 
+// FIFTH SECTION
 .mf-latest-news {
   width: 100%;
   background-color: white;
@@ -519,7 +552,9 @@ export default {
     }
   }
 }
+// FIFTH SECTION end
 
+// SIXTH SECTION
 .mf-takeout {
   display: flex;
   width: 100%;
@@ -571,7 +606,9 @@ export default {
     }
   }
 }
+// SIXTH SECTION end
 
+// SEVENTH SECTION
 .mf-menu {
   width: 100%;
   background-color: white;
@@ -620,7 +657,9 @@ export default {
     }
   }
 }
+// SEVENTH SECTION end
 
+// EIGHTH SECTION
 .mf-braised {
   width: 100%;
   background-image: url('../assets/img/hero42x.jpg');
@@ -666,5 +705,5 @@ export default {
     }  
   }
 }
-
+// EIGHTH SECTION end
 </style>
