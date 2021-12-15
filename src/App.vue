@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Header />
+    <Header :navList="navList" />
     <Main />
-    <Footer :creditsLinks="footerCreditsLinks"/>
+    <Footer :creditsLinks="creditsLinks" />
   </div>
 </template>
 
@@ -15,7 +15,37 @@ export default {
   name: 'App',
   data() {
     return {
-      footerCreditsLinks: [
+      navList: [
+        {
+          title: 'Home',
+          link: '#'
+        },
+        {
+          title: 'Culinary History',
+          link: '#'
+        },
+        {
+          title: 'Our Team',
+          link: '#'
+        },
+        {
+          title: 'Our Menu',
+          link: '#'
+        },
+        {
+          title: 'Takeout',
+          link: '#'
+        },
+        {
+          title: 'Bulletin',
+          link: '#'
+        },
+        {
+          title: 'Reservation',
+          link: '#'
+        }
+      ],
+      creditsLinks: [
         {
           title: 'Copyright 2002 - 20019 Avada',
           link: '#'

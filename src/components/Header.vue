@@ -13,7 +13,8 @@
       <div class="mf-header-background">
         <nav>
           <ul>
-            <li v-for="(link, index) in NavData" :key="index">
+            <li v-for="(link, index) in navList" :key="index">
+
               <a :href="link.link">
                 {{link.title}}
               </a>
@@ -27,15 +28,10 @@
 </template>
 
 <script>
-import NavData from '../assets/data/NavData.js';
-
-
 export default {
   name: 'Header',
-  data(){
-    return {
-      NavData,
-    }
+  props: {
+    navList: Array
   }
 }
 </script>

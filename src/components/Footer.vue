@@ -15,7 +15,9 @@
     </div>
     <div class="mf-footer-bottom">
       <ul>
-        <li v-for="(link, index) in creditsLinks" :key="`credits${index}`"><a :href="link.link">{{link.title}} </a> | </li>
+        <li v-for="(link, index) in creditsLinks" :key="`credits${index}`">
+          <a :href="link.link">{{link.title}} </a> | 
+        </li>
 
 
 
