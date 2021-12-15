@@ -45,7 +45,6 @@ header {
   width: 100%;
   min-width: 700px;
   height: 700px;
-  background-color: red;
   
   .mf-head-left {
     width: 40%;

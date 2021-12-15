@@ -18,12 +18,6 @@
         <li v-for="(link, index) in creditsLinks" :key="`credits${index}`">
           <a :href="link.link">{{link.title}} </a> | 
         </li>
-
-
-
-        <!-- <li><a href="">All right Reserved  </a> | </li>
-        <li><a href="">Powered by <span>WordPress</span> </a> | </li>
-        <li><a href="">ThemeFusion</a></li> -->
       </ul>
     </div>
   </footer>
