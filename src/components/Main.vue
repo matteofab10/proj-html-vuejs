@@ -172,6 +172,16 @@
         <h5>Eget vulputate vitae quis rutrum blandit sed. Quam nulla sit lacina</h5>
       </div>
     </section>
+    <section class="mf-braised">
+      <div class="mf-card-box">
+        <div class="mf-card">
+          <span>$52</span>
+          <h1>braised abalone</h1>
+          <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde nam ab commodi velit sequi.</h5>
+          <button>explore the menu</button>
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -565,7 +575,7 @@ export default {
 
 .mf-menu {
   width: 100%;
-  background-color: seagreen;
+  background-color: white;
   display: flex;
   justify-content: center;
   padding: 100px;
@@ -612,10 +622,50 @@ export default {
   }
 }
 
-.section-8 {
+.mf-braised {
   width: 100%;
-  height: 700px;
-  background-color: sandybrown;
+  background-image: url('../assets/img/hero42x.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 100px 0 100px 200px;
+  .mf-card-box {
+    width: 30%;
+  }
+  .mf-card {
+    width: 100%;
+    padding: 80px;
+    background-color: black;
+    span {
+      color: #bcbcbc;
+      float: right;
+      font-size: 15px;
+    }
+    h1 {
+      text-transform: uppercase;
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+    h5 {
+      color: #bcbcbc;
+      padding-right: 20%;
+      margin-bottom: 40px;
+      line-height: 25px;
+      font-size: 15px;
+    }
+    button {
+      background-color: black;
+      color: #bcbcbc;
+      text-transform: uppercase;
+      font-size: 10px;
+      padding: 10px 20px 10px 20px;
+      border-color: #bcbcbc;
+      i {
+        padding-right: 5px;
+      }
+    }  
+  }
 }
 
 </style>
